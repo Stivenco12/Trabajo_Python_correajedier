@@ -1,5 +1,6 @@
 import os 
-
+import funcionalidades2.fecha_compra as fc
+import funcionalidades2.infor_proevedor as ip
 def menuprincipal(op):
     os.system("cls")
     menuprincipalop = "1.fecha de la compra  \n2 informacion del proevedor \n3 productos comprados \n4 volver   "
@@ -14,9 +15,9 @@ def menuprincipal(op):
         else: 
             match (opcion):
                 case 1:
-                    print("hasta")
+                    fc.fechacompra()
                 case 2:
-                    print("hasta")
+                   ip.fechacompra()
                 case 3:
                     print("2")
                 case 4:
